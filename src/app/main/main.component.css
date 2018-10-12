@@ -1,0 +1,20 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+#mainHeading{
+    text-align: center;
+}
+#searchcontent{
+    align-items: center;
+}
+
+
+.jumbotron{
+    height :180px;
+   background: white;
+}
+.col-xs-12{
+    margin-top: 5px
+}
+
+#lastcity{
+    text-align: center
+}

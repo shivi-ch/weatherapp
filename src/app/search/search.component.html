@@ -1,0 +1,69 @@
+<div class="container">
+  
+  <div class="jumbotron col-lg-12 col-md-12 col-sm-12" id="mainHeading">
+    <h2>The Weather App <span><img src="../../assets/weather-icon.png" style="width:100px;height:100px"></span> </h2>
+    <div class="row" >
+      <div class="col-lg-12" style="text-align: left;align-items:left;">
+          <a href="">
+              <button class="btn btn-primary btn-sm">Search Another</button>
+          </a>
+      </div>
+      
+    </div>
+  </div>
+
+  
+  <div class="container">
+    <div class="col-md-12" id="cityname">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2>{{name}}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="card" style="">
+            <img class="card-img-top" src="../../assets/location.gif" >
+            <div class="card-body">
+              <h5 class="card-title"><b>Coordinates</b></h5>
+              <p class="card-text"> Exactly Here It Is</p>
+
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Latitude</b>:{{lat}}</li>
+              <li class="list-group-item"><b>Longitude</b>:{{lon}}</li>
+              <li class="list-group-item"><p></p></li>
+
+            </ul>
+          </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="card">
+            <img class="card-img-top" src="../../assets/temperature.png">
+            <div class="card-body">
+              <h5 class="card-title"><b>Temperature</b></h5>
+              <p class="card-text">This is How It Feels Here</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>Current</b> : {{temp}} F</li>
+              <li class="list-group-item"><b>Min</b> : {{tempmin}} F</li>
+              <li class="list-group-item"><b>Max</b> : {{tempmax}} F</li>
+            </ul>
+          </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="card" style="">
+            <img class="card-img-top" src="../../assets/weather.png" >
+            <div class="card-body">
+              <h5 class="card-title"><b>Weather</b></h5>
+              <p class="card-text">Enjoy The Weather</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>Weather</b> : {{weather}}</li>
+              <li class="list-group-item"><b>Wind Speed</b> : {{wspeed}} Km/Hr</li>
+              <li class="list-group-item"><p></p></li>
+            </ul>            
+          </div>
+    </div>
+  </div>  
+  </div>

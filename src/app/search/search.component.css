@@ -1,0 +1,22 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+#mainHeading{
+    text-align: center;
+}
+#cityname{
+    text-align: center;
+    margin-top: 50px
+}
+
+.card-img-top{
+    width: 280px;
+    height:200px
+}
+.card{
+    align-items: center;
+    text-align: center;
+    align-content: center
+}
+.jumbotron{
+    height :180px;
+   background: white;
+}
